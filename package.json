@@ -1,0 +1,27 @@
+{
+  "name": "name-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postcss": "postcss dist/styles/**/*.css --dir dist/styles",
+    "tailwindcss": "npx tailwindcss build -i src/tailwind.css -o dist/styles/tailwind.css --watch",
+    "sass": "sass --no-source-map --watch src/styles:dist/styles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.38.1",
+    "tailwindcss": "^3.0.15"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "Android >= 4"
+  ]
+}
